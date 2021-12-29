@@ -102,6 +102,7 @@ p {
   flex-wrap: wrap;
   margin: 0;
   padding: 15px;
+  flex-grow: 1;
 }
 @media screen and (min-width: 768px) {
   .row {
@@ -440,7 +441,7 @@ p {
   background: url("../assets/img/contact.jpeg") center/cover local;
   color: #eff0f3;
   position: relative;
-  min-height: 85vh;
+  min-height: 100h;
   padding-top: 3rem;
 }
 @media screen and (min-width: 768px) {
