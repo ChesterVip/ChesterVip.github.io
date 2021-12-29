@@ -1,0 +1,14 @@
+@use '../2-tools/' as *;
+
+.site-gallery {
+
+    min-height: 70vh;
+    padding-top: 5rem;
+
+    &--bg-image {
+        background: url(../assets/img/bcg-gallery.jpg)center/cover local;
+        @include medium{
+            background-attachment: fixed;
+        }
+    }
+}

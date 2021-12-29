@@ -1,0 +1,39 @@
+@use '../1-settings/' as *;
+@use '../2-tools/' as *;
+
+.site-header{
+    height: 100vh;
+  
+    position: relative;
+    background: url('../assets/img/start.jpeg') center/cover local;
+    &__blackout {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+    }
+    
+    &__nav {
+        position: absolute;
+        width: 60%;
+        text-align: center;
+        margin-top: $grid-base * 3;
+    }
+    
+    &__h1 {
+        position: absolute;
+        bottom: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    
+    &__button {
+        position: absolute;
+        bottom: 15%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    @include medium{
+        background-attachment: fixed;
+    }
+}

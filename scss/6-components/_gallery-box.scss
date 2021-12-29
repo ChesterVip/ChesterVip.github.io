@@ -1,0 +1,48 @@
+@use '../2-tools/' as *;
+
+.gallery-box {
+
+    margin-top: 5vh;
+    border-radius: .6rem;
+    box-shadow: 0px 0px 15px whitesmoke;
+    flex-grow: 1;
+    align-items: center;
+
+
+    &:hover {
+        box-shadow: 0px 0px 25px whitesmoke;
+        cursor: pointer;
+    }
+
+    &__image {
+        background: url('../assets/img/galery/gallery_img1.jpeg') center/cover;
+        height: 22rem;
+        display: block;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+
+        &--next1 {
+            background: url('../assets/img/galery/gallery_img2.jpeg') center/cover;
+        }
+        &--next2 {
+            background: url('../assets/img/galery/gallery_img3.jpeg') center/cover;
+        }
+        &--next3 {
+            background: url('../assets/img/galery/gallery_img4.jpeg') center/cover;
+        }
+        &--next4 {
+            background: url('../assets/img/galery/gallery_img5.jpeg') center/cover;
+        }
+        &--next5 {
+            background: url('../assets/img/galery/gallery_img6.jpeg') center/cover;
+        }
+        &--next6 {
+            background: url('../assets/img/galery/gallery_img7.jpeg') center/cover;
+        }
+
+        @include medium {
+            height: 16rem;
+            flex-grow: 1;
+        }
+    }
+}

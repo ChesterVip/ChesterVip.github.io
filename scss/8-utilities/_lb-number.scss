@@ -1,0 +1,6 @@
+@use '../1-settings/variables' as *;
+
+.lb-number{
+    font-size: $font-base * 3 !important;
+    margin-top: 1vh;
+}

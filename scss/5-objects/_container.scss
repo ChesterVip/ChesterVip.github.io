@@ -1,0 +1,15 @@
+@use '../1-settings/' as *;
+@use '../2-tools/' as *;
+.container {
+    width: 100%;
+    padding: 0 $gutter;
+    
+    @include medium {
+        max-width: 74 * $grid-base;
+        margin: 0 auto;
+    }
+
+    @include large {
+        max-width: 112 * $grid-base;
+    }
+}
