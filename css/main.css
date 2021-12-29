@@ -394,7 +394,7 @@ p {
 }
 
 .site-header {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background: url("../assets/img/start.jpeg") center/cover local;
 }
@@ -440,7 +440,7 @@ p {
   background: url("../assets/img/contact.jpeg") center/cover local;
   color: #eff0f3;
   position: relative;
-  height: 85vh;
+  min-height: 85vh;
   padding-top: 3rem;
 }
 @media screen and (min-width: 768px) {

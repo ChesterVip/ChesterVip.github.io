@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 1.5 * $grid-base;
+    flex-grow: 1;
 
     @include medium {
         flex-direction: row;

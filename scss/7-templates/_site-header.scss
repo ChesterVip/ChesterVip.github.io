@@ -2,7 +2,7 @@
 @use '../2-tools/' as *;
 
 .site-header{
-    height: 100vh;
+    min-height: 100vh;
   
     position: relative;
     background: url('../assets/img/start.jpeg') center/cover local;
