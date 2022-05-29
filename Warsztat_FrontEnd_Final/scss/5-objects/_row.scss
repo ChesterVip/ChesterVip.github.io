@@ -1,0 +1,15 @@
+@use '../1-settings/' as *;
+@use '../2-tools/' as *;
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1.5 * $grid-base;
+    flex-grow: 1;
+
+    @include medium {
+        flex-direction: row;
+        // flex-wrap: nowrap;
+    }
+}

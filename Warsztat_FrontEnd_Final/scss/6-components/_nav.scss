@@ -1,0 +1,33 @@
+@use '../1-settings/' as *;
+@use '../2-tools/' as *;
+
+.nav {
+
+    &__item {
+        font-size: 3.2rem;
+        @include medium {
+            display: inline-block;
+            width: 19.7%;
+        }
+
+    }
+
+    &__link {
+        color: $color-white;
+        padding: $grid-base;
+        border-radius: .4rem;
+        display: block;
+        text-align: center;
+        transition-duration: .5s;
+        &:hover {
+            background-color: $color-red;
+            font-weight: bolder;
+            // font-size: 3.5rem;
+            transform: translateX(-20%);
+            @include medium{
+                transform: translateY(-30%);
+            }
+        }
+    }
+
+}

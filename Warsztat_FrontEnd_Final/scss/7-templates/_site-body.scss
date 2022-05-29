@@ -1,0 +1,12 @@
+.site-body{
+    &__social{
+        position: fixed;
+        left: -135px;
+        bottom: 20%;   
+    }
+    &__cookies{
+        position: fixed;
+        bottom: 0;
+        left: 0;    
+    }
+}

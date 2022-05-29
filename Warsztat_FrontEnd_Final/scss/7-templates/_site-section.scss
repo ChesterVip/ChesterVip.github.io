@@ -1,0 +1,11 @@
+@use '../1-settings/' as *;
+
+.site-sections {
+
+    min-height: 70vh;
+    padding-top: 3rem;
+
+    &--bg-color {
+        background-color: $color-bg-section;
+    }
+}
