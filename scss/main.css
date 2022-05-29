@@ -148,8 +148,6 @@ p {
 }
 
 .cookies {
-  display: none;
-  z-index: 9999;
   color: #fff;
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -159,9 +157,7 @@ p {
 }
 .cookies__text {
   width: 70%;
-  font-size: larger;
   text-align: justify;
-  margin: 0.75rem;
   padding: 0.5rem;
 }
 @media screen and (min-width: 768px) {
@@ -171,9 +167,9 @@ p {
   }
 }
 .cookies__close {
-  width: 35%;
+  width: 30%;
   position: absolute;
-  top: calc(50% - 9px);
+  top: 0.5rem;
   right: 0.5rem;
   padding: 0.5rem;
   text-align: center;
@@ -184,20 +180,18 @@ p {
   }
 }
 .cookies__close a {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .cookies__close a:hover {
   color: red;
-  font-weight: bolder;
-  font-size: 2rem;
 }
 .cookies__h3 {
   width: 100%;
   right: 0;
   left: 0;
   text-align: center;
-  font-size: 15px;
-  line-height: 2rem;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .blackout {
@@ -210,7 +204,7 @@ p {
 @media screen and (min-width: 768px) {
   .nav__item {
     display: inline-block;
-    width: 19.7%;
+    width: 19.5%;
   }
 }
 .nav__link {
@@ -223,13 +217,6 @@ p {
 }
 .nav__link:hover {
   background-color: #74030e;
-  font-weight: bolder;
-  transform: translateX(-20%);
-}
-@media screen and (min-width: 768px) {
-  .nav__link:hover {
-    transform: translateY(-30%);
-  }
 }
 
 .heading--h1 {
@@ -270,7 +257,6 @@ p {
 }
 .btn--red:hover {
   background-color: #420208;
-  font-size: 3.3rem;
 }
 .btn--green {
   background-color: #132601;
@@ -474,7 +460,7 @@ p {
 }
 .site-header__nav {
   position: absolute;
-  width: 70%;
+  width: 60%;
   text-align: center;
   margin-top: 30px;
 }
@@ -555,8 +541,6 @@ p {
 
 .site-menu .site-menu__div {
   position: absolute;
-  height: 95vh;
-  width: 95vw;
   transform: scale(2);
 }
 .site-menu p {

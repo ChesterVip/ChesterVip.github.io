@@ -6,7 +6,7 @@
     background: url('../assets/img/contact.jpeg') center/cover local;
     color: $color-white;
     position: relative;
-    min-height: 100h;
+    min-height: 100vh;
     padding-top: 3rem;
     @include medium{
         background-attachment: fixed;

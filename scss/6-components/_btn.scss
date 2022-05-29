@@ -18,6 +18,7 @@
         background-color: $color-red;
         &:hover {
             background-color: darken($color-red, 10%);
+            font-size: 3.3rem;
         }
     }
     
